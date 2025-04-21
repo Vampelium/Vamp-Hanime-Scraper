@@ -1,99 +1,51 @@
-# Vamp-Hanime-Scraper
-Vamp Hanime Scraper
+# Vamp-Anime-Scraper
 
-Vamp Hanime Scraper is a Node.js library designed to scrape metadata, descriptions, thumbnails, download links, and tags from Hanime.tv. This scraper is perfect for developers who need to programmatically extract data from Hanime.tv for use in their applications.
+## ⚠️ DEPRECATED ⚠️
 
-Features
+This repository is no longer maintained and has been officially deprecated. The decision to deprecate this project stems from a shift in priorities and a deeper understanding of the ethical and legal implications associated with scraping and pirating copyrighted content.
 
-	•	Fetch Metadata: Retrieve detailed information about a video, such as brand, release date, upload date, view count, and more.
-	•	Extract Descriptions: Get the full description of the video content.
-	•	Download Thumbnails: Extract the URL for the video’s thumbnail.
-	•	Get Download Links: Obtain direct download links for the video.
-	•	Retrieve Tags: Fetch all tags associated with the video.
+---
 
-Installation
+## ❓ What Was Vamp-Anime-Scraper?
 
-You can easily install the Vamp Hanime Scraper via npm. Make sure you have Node.js installed on your system.
+Vamp-Hanime-Scraper was a tool designed for scraping content from various anime streaming websites. Its purpose was to bypass restrictions and automate the downloading of anime episodes for offline use.
 
-Step 1: Install via npm
+---
 
-npm install vamp-hanime-scraper
+## 🚨 Why Was This Project Deprecated?
 
-Step 2: Import the Library
+The use of scrapers to access copyrighted content without proper authorization violates copyright laws and ethical principles. As a responsible developer, I have chosen to discontinue this project to align with legal standards and to respect the rights of content creators.
 
-const { getInfo, getDescription, getThumbnail, getDownloadUrl, getTags } = require('vamp-hanime-scraper');
+---
 
-Usage
+## 🛑 Warning
 
-Here’s a quick guide on how to use the Vamp Hanime Scraper to fetch various data points from a Hanime.tv video page.
+- **DO NOT USE** this project to scrape or pirate copyrighted material. Unauthorized access and distribution of copyrighted content are illegal and can lead to severe consequences.
+- This repository is retained for archival purposes only and will not be updated or maintained.
 
-Example Usage
+---
 
-const { getInfo, getDescription, getThumbnail, getDownloadUrl, getTags } = require('vamp-hanime-scraper');
+## 🙏 Acknowledgment
 
-const url = 'https://hanime.tv/videos/hentai/sample-video';
+I encourage everyone to support content creators by accessing their work through legal and authorized platforms. Supporting the industry ensures the continued creation of great content for everyone to enjoy.
 
-(async () => {
-    try {
-        const info = await getInfo(url);
-        const description = await getDescription(url);
-        const thumbnail = await getThumbnail(url);
-        const downloadUrl = await getDownloadUrl(url);
-        const tags = await getTags(url);
+---
 
-        console.log({ info, description, thumbnail, downloadUrl, tags });
-    } catch (error) {
-        console.error('Error fetching data:', error);
-    }
-})();
+## 📜 License
 
-API Methods
+This project remains under its original license, but it is strongly recommended that you refrain from using it for any unethical or illegal activities.
 
-	1.	getInfo(url: string) -> Promise
-Fetches the metadata of the video.
-	2.	getDescription(url: string) -> Promise
-Fetches the description of the video.
-	3.	getThumbnail(url: string) -> Promise
-Fetches the thumbnail URL of the video.
-	4.	getDownloadUrl(url: string) -> Promise
-Fetches the download URL of the video.
-	5.	getTags(url: string) -> Promise<string[]>
-Fetches the tags associated with the video.
+---
 
-Sample Output
+## 💡 Alternatives
 
-Here is an example of what the output might look like:
+If you're looking to enjoy anime, please consider these legal platforms:
+- [Crunchyroll](https://www.crunchyroll.com/)
+- [https://www.hidive.com/
+- [Netflix](https://www.netflix.com/) (Anime Section)
 
-{
-  "info": {
-    "brand": "Example Brand",
-    "branduploads": "5",
-    "releasedate": "January 1, 2020",
-    "uploaddate": "January 2, 2020",
-    "views": "100,000 views",
-    "censored": true,
-    "alternatetitles": ["Title1", "Title2"]
-  },
-  "description": "This is the description of the video.",
-  "thumbnail": "https://example.com/thumbnail.jpg",
-  "downloadUrl": "https://hanime.tv/downloads/encodedurl",
-  "tags": ["tag1", "tag2", "tag3"]
-}
+These platforms provide high-quality content while respecting copyright laws and supporting the creators.
 
-How to Contribute
+---
 
-Contributions are welcome! If you have ideas, requests, or bug reports, feel free to open an issue or submit a pull request.
-
-	1.	Fork the Repository
-	2.	Create a New Branch: git checkout -b feature/my-new-feature
-	3.	Commit Your Changes: git commit -am 'Add some feature'
-	4.	Push to the Branch: git push origin feature/my-new-feature
-	5.	Submit a Pull Request
-
-License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Disclaimer
-
-This tool is intended for educational purposes only. Please respect the terms of service of any site you scrape.
+Thank you for your understanding and for choosing to support ethical practices within the community.
