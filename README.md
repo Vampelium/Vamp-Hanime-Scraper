@@ -8,7 +8,7 @@ This repository is no longer maintained and has been officially deprecated. The 
 
 ## ❓ What Was Vamp-Anime-Scraper?
 
-Vamp-Hanime-Scraper was a tool designed for scraping content from various anime streaming websites. Its purpose was to bypass restrictions and automate the downloading of anime episodes for offline use.
+Vamp-Anime-Scraper was a tool designed for scraping content from various anime streaming websites. Its purpose was to bypass restrictions and automate the downloading of anime episodes for offline use.
 
 ---
 
